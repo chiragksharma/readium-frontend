@@ -13,7 +13,9 @@
     "marked": "^1.1.1",
     "next": "^9.5.1",
     "react": "16.13.1",
+    "react-custom-share": "^0.4.8",
     "react-dom": "16.13.1",
+    "react-icons": "^4.4.0",
     "swr": "^0.3.0"
   },
   "devDependencies": {
