@@ -1,11 +1,14 @@
 import React from "react";
-
+//importing Custom link
 import CustomLink from "../common/CustomLink";
+//importing Loading Spinner
 import LoadingSpinner from "../common/LoadingSpinner";
+//importing useSWR
 import { usePageDispatch } from "../../lib/context/PageContext";
 import useSWR from "swr";
 import { SERVER_BASE_URL } from "../../lib/utils/constant";
 import fetcher from "../../lib/utils/fetcher";
+//importing Errormessage
 import ErrorMessage from "../common/ErrorMessage";
 
 const Tags = () => {
