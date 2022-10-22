@@ -14,6 +14,16 @@ const useViewport = () => {
         setVH(window.innerHeight);
       }
     };
+    
+    const setSizes2 = () => {
+      if (window.innerWidth !== vw) {
+        setVW(window.innerWidth);
+      }
+
+      if (window.innerHeight !== vh) {
+        setVH(window.innerHeight);
+      }
+    };
 
     setSizes();
     window.addEventListener("resize", setSizes);
