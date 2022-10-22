@@ -1,7 +1,10 @@
 import Head from "next/head";
 import React from "react";
 
+// importing Custom Links
 import CustomLink from "../../components/common/CustomLink";
+
+// importing Loginform
 import LoginForm from "../../components/profile/LoginForm";
 
 const Login = () => (
