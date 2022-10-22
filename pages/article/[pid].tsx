@@ -41,6 +41,17 @@ const ArticlePage = (initialArticle) => {
         document.body.removeChild(el);
         setCopied(true);
     }
+    
+    function copy2() {
+        const el = document.createElement("input");
+        el.value = pageURL;
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand("copy");
+        document.body.removeChild(el);
+        setCopied(true);
+    }
+    
     const router = useRouter();
     const {
         query: { pid },
